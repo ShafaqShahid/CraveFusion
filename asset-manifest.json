@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CraveFusion/static/css/main.028d9262.css",
+    "main.js": "/CraveFusion/static/js/main.fdb9674f.js",
+    "index.html": "/CraveFusion/index.html",
+    "main.028d9262.css.map": "/CraveFusion/static/css/main.028d9262.css.map",
+    "main.fdb9674f.js.map": "/CraveFusion/static/js/main.fdb9674f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.028d9262.css",
+    "static/js/main.fdb9674f.js"
+  ]
+}
