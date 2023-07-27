@@ -16,7 +16,7 @@ const Navigation = () => {
               <img style={{height:60}} src={logo} alt="logo"/>
             </Link>
             <ul className="flex items-center"> 
-              <li><Link to="/" style={{ color: '#ea8d35' }}>Home</Link></li>
+              <li><Link to="/CraveFusion" style={{ color: '#ea8d35' }}>Home</Link></li>
               <li className="ml-6"><Link to="/products" style={{ color: '#ea8d35' }}>Products</Link></li>
               <li className="ml-6"><Link to="/cart  " style={{ color: '#f4ebcb' }}>
                 <div style={cartSyle}>
