@@ -1,6 +1,14 @@
 import React from 'react'
 import { useContext  } from 'react';
 import { CartContext } from '../CartContext';
+import pizza1 from "../images/1.png";
+import pizza2 from "../images/10.png";
+import pizza3 from "../images/3.png";
+import pizza4 from "../images/4.png";
+import pizza5 from "../images/5.png";
+import pizza6 from "../images/6.png";
+import pizza7 from "../images/7.png";
+import pizza8 from "../images/8.png";
 
 const Product = () => {
   const { addToCart } = useContext(CartContext);
@@ -14,7 +22,7 @@ const Product = () => {
       <h1 className="text-lg font-bold my-8">Products </h1>
       <div className="grid grid-cols-4 my-8 gap-24">
         <div>
-          <img src="/images/1.png" alt="Pizza" />
+          <img src={pizza1}alt="Pizza" />
           <div className="text-center">
             <h2 className="text-lg font-bold py-2">Pepperoni Special</h2>
             <span className="bg-gray-200 py-1 rounded-full text-sn px-4">
@@ -30,7 +38,7 @@ const Product = () => {
         </div>
 
         <div>
-        <img src='/images/10.png' alt='Pizza'/>
+        <img src={pizza2} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Extra Cheese</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Medium</span>
@@ -42,7 +50,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/3.png' alt='Pizza'/>
+        <img src={pizza3} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Fajita Special</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Large</span>
@@ -54,7 +62,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/4.png' alt='Pizza'/>
+        <img src={pizza4} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Tikka Special</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Small</span>
@@ -66,7 +74,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/5.png' alt='Pizza'/>
+        <img src={pizza5} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>BBQ Chicken</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Small</span>
@@ -78,7 +86,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/6.png' alt='Pizza'/>
+        <img src={pizza6} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Meat</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Medium</span>
@@ -90,7 +98,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/7.png' alt='Pizza'/>
+        <img src={pizza7} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Veggie</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Large</span>
@@ -102,7 +110,7 @@ const Product = () => {
     </div>
 
     <div>
-        <img src='/images/8.png' alt='Pizza'/>
+        <img src={pizza8} alt='Pizza'/>
         <div className='text-center'>
      <h2 className='text-lg font-bold py-2'>Extra Spice</h2>
      <span className='bg-gray-200 py-1 rounded-full text-sn px-4'>Medium</span>

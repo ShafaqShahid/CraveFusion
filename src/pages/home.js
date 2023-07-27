@@ -1,5 +1,7 @@
 import Product from "../Components/Product";
 import Footer from "../Components/Footer";
+import hero from "../images/hero.png";
+
 const Home = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const Home = () => {
           </button>
         </div>
         <div className="w-1/2">
-            <img className="w-4/5" src="/images/hero.png" alt="hero"/>
+            <img className="w-4/5" src={hero} alt="hero"/>
         </div>
       </div>
       </div>

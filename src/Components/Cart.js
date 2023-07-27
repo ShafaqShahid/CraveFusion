@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { CartContext } from '../CartContext';
+import Cartimg from "../images/emptyCart.gif";
 const Cart = () => {
   const { cartItems } = useContext(CartContext);
   const [orderPlaced, setOrderPlaced] = useState(false);
@@ -18,7 +19,7 @@ const Cart = () => {
       <h2 className="mb-4">Cart</h2>
       {cartItems.length === 0 ? (
        <>
-       <div style={containerStyle}> <img  src='/images/emptyCart.gif' alt='cart'/></div></>
+       <div style={containerStyle}> <img  src={Cartimg} alt='cart'/></div></>
       ) : (
         <table className="table table-striped">
           <thead>

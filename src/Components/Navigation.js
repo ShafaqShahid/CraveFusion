@@ -1,4 +1,6 @@
 import {Link} from "react-router-dom"
+import logo from '../images/logo.png';
+import cart from '../images/cart.png';
 const Navigation = () => {
   const cartSyle={
     background:'#ec8c34',
@@ -11,7 +13,7 @@ const Navigation = () => {
     <>
 <nav className="container mx-auto flex items-center justify-between py-4">           
             <Link to="/">
-              <img style={{height:60}} src="/images/logo.png" alt="logo"/>
+              <img style={{height:60}} src={logo} alt="logo"/>
             </Link>
             <ul className="flex items-center"> 
               <li><Link to="/" style={{ color: '#ea8d35' }}>Home</Link></li>
@@ -19,7 +21,7 @@ const Navigation = () => {
               <li className="ml-6"><Link to="/cart  " style={{ color: '#f4ebcb' }}>
                 <div style={cartSyle}>
                   <span >Cart</span>
-                  <img className="ml-2" style={{height:25}} src="/images/cart.png" alt="cart-icon"/>
+                  <img className="ml-2" style={{height:25}} src={cart} alt="cart-icon"/>
                 </div>
                 </Link></li>
              </ul>
