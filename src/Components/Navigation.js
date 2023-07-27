@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <>
 <nav className="container mx-auto flex items-center justify-between py-4">           
-            <Link to="/">
+            <Link to="/CraveFusion">
               <img style={{height:60}} src={logo} alt="logo"/>
             </Link>
             <ul className="flex items-center"> 
