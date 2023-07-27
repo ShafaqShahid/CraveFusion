@@ -1,13 +1,25 @@
 {
   "files": {
     "main.css": "/CraveFusion/static/css/main.028d9262.css",
-    "main.js": "/CraveFusion/static/js/main.fdb9674f.js",
+    "main.js": "/CraveFusion/static/js/main.3ab70403.js",
+    "static/media/emptyCart.gif": "/CraveFusion/static/media/emptyCart.1b3b772fd5bf21a62e96.gif",
+    "static/media/1.png": "/CraveFusion/static/media/1.31581ad8535c5ce0f134.png",
+    "static/media/6.png": "/CraveFusion/static/media/6.8aa4bb5368a1444a2143.png",
+    "static/media/10.png": "/CraveFusion/static/media/10.bcaf60ca215ff036a1e3.png",
+    "static/media/5.png": "/CraveFusion/static/media/5.527eef12d273c4cd4a94.png",
+    "static/media/7.png": "/CraveFusion/static/media/7.067d44ae29324f92ea26.png",
+    "static/media/8.png": "/CraveFusion/static/media/8.8b3dd21a63b6f91d1424.png",
+    "static/media/3.png": "/CraveFusion/static/media/3.173d261159908774d1b4.png",
+    "static/media/4.png": "/CraveFusion/static/media/4.051d06441abfb8d5aad8.png",
+    "static/media/logo.png": "/CraveFusion/static/media/logo.5e1ebf130b0740e8b114.png",
+    "static/media/hero.png": "/CraveFusion/static/media/hero.f19cf755afbe48496239.png",
+    "static/media/cart.png": "/CraveFusion/static/media/cart.3f731db441374040a4f6.png",
     "index.html": "/CraveFusion/index.html",
     "main.028d9262.css.map": "/CraveFusion/static/css/main.028d9262.css.map",
-    "main.fdb9674f.js.map": "/CraveFusion/static/js/main.fdb9674f.js.map"
+    "main.3ab70403.js.map": "/CraveFusion/static/js/main.3ab70403.js.map"
   },
   "entrypoints": [
     "static/css/main.028d9262.css",
-    "static/js/main.fdb9674f.js"
+    "static/js/main.3ab70403.js"
   ]
 }
