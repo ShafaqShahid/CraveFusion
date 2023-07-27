@@ -20,7 +20,7 @@ function App(){
    
        <Navigation/>
         <Routes>
-         <Route path="/" Component={Home}></Route>
+         <Route path="/CraveFusion" Component={Home}></Route>
          <Route path="/products" Component={Products}></Route>
          <Route path="/cart" Component={Cart}></Route>
          </Routes>
