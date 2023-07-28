@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CraveFusion/static/css/main.028d9262.css",
-    "main.js": "/CraveFusion/static/js/main.3ab70403.js",
+    "main.js": "/CraveFusion/static/js/main.a3b9fa38.js",
     "static/media/emptyCart.gif": "/CraveFusion/static/media/emptyCart.1b3b772fd5bf21a62e96.gif",
     "static/media/1.png": "/CraveFusion/static/media/1.31581ad8535c5ce0f134.png",
     "static/media/6.png": "/CraveFusion/static/media/6.8aa4bb5368a1444a2143.png",
@@ -16,10 +16,10 @@
     "static/media/cart.png": "/CraveFusion/static/media/cart.3f731db441374040a4f6.png",
     "index.html": "/CraveFusion/index.html",
     "main.028d9262.css.map": "/CraveFusion/static/css/main.028d9262.css.map",
-    "main.3ab70403.js.map": "/CraveFusion/static/js/main.3ab70403.js.map"
+    "main.a3b9fa38.js.map": "/CraveFusion/static/js/main.a3b9fa38.js.map"
   },
   "entrypoints": [
     "static/css/main.028d9262.css",
-    "static/js/main.3ab70403.js"
+    "static/js/main.a3b9fa38.js"
   ]
 }
